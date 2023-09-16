@@ -63,7 +63,7 @@ public class SelectorMenu implements Listener {
         Player player = (Player) event.getWhoClicked();
         if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Disconnect")) {
             event.setCancelled(true);
-            player.kickPlayer(CC.RED + "Thank you for checking out PotionLand. Goodbye.");
+            player.kickPlayer("Thank you for flying PvPLounge");
 
         }
         if (event.getCurrentItem().getItemMeta().getDisplayName().contains("Practice")) {
